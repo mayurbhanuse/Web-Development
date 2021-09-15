@@ -1,0 +1,812 @@
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study
+$ pwd
+/e/Study
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study
+$ ls
+ Bootstrap/   CSS/   DOM/   HTML/  'Web Development'/
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study
+$ ls -l
+total 8
+drwxr-xr-x 1 Mayur 197121 0 Aug 26 20:05  Bootstrap/
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:54  CSS/
+drwxr-xr-x 1 Mayur 197121 0 Sep  3 20:01  DOM/
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:57  HTML/
+drwxr-xr-x 1 Mayur 197121 0 Sep 10 12:02 'Web Development'/
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study
+$ ls -lart
+total 12
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:54  CSS/
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:57  HTML/
+drwxr-xr-x 1 Mayur 197121 0 Aug 26 20:05  Bootstrap/
+drwxr-xr-x 1 Mayur 197121 0 Sep  3 20:01  DOM/
+drwxr-xr-x 1 Mayur 197121 0 Sep 10 11:50  ./
+drwxr-xr-x 1 Mayur 197121 0 Sep 10 12:02 'Web Development'/
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 17:37  ../
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study
+$ ls
+ Bootstrap/   CSS/   DOM/   HTML/  'Web Development'/
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study
+$ ls -lart
+total 12
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:54  CSS/
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:57  HTML/
+drwxr-xr-x 1 Mayur 197121 0 Aug 26 20:05  Bootstrap/
+drwxr-xr-x 1 Mayur 197121 0 Sep  3 20:01  DOM/
+drwxr-xr-x 1 Mayur 197121 0 Sep 10 11:50  ./
+drwxr-xr-x 1 Mayur 197121 0 Sep 10 12:02 'Web Development'/
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 17:37  ../
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study
+$ git init
+Initialized empty Git repository in E:/Study/.git/
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Bootstrap/
+        CSS/
+        DOM/
+        HTML/
+        Web Development/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git add *
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap.min.css.
+The file will have its original line endings in your working directory
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Bootstrap/bootstrap/bootstrap-grid.css
+        new file:   Bootstrap/bootstrap/bootstrap-grid.css.map
+        new file:   Bootstrap/bootstrap/bootstrap-grid.min.css
+        new file:   Bootstrap/bootstrap/bootstrap-grid.min.css.map
+        new file:   Bootstrap/bootstrap/bootstrap-reboot.css
+        new file:   Bootstrap/bootstrap/bootstrap-reboot.css.map
+        new file:   Bootstrap/bootstrap/bootstrap-reboot.min.css
+        new file:   Bootstrap/bootstrap/bootstrap-reboot.min.css.map
+        new file:   Bootstrap/bootstrap/bootstrap.css
+        new file:   Bootstrap/bootstrap/bootstrap.css.map
+        new file:   Bootstrap/bootstrap/bootstrap.min.css
+        new file:   Bootstrap/bootstrap/bootstrap.min.css.map
+        new file:   Bootstrap/bootstrap/index.html
+        new file:   Bootstrap/bootstrap/style.css.css
+        new file:   Bootstrap/bootstrap/styles.css
+        new file:   Bootstrap/css/index.html
+        new file:   Bootstrap/css/styles.css
+        new file:   Bootstrap/html/HTML - Personal Site/CSS - My Site/css/favicon.ico
+        new file:   Bootstrap/html/HTML - Personal Site/CSS - My Site/css/styles.css
+        new file:   Bootstrap/html/HTML - Personal Site/CSS - My Site/index.html
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice1.png
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice2.png
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice3.png
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice4.png
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice5.png
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice6.png
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/index.html
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/index.js
+        new file:   Bootstrap/html/HTML - Personal Site/Dicee_Challenge/styles.css
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kit Starting Files.zip
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/images/crash.png
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/images/kick.png
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/images/snare.png
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom1.png
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom2.png
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom3.png
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom4.png
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/index.html
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/index.js
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/crash.mp3
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/kick-bass.mp3
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/snare.mp3
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-1.mp3
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-2.mp3
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-3.mp3
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-4.mp3
+        new file:   Bootstrap/html/HTML - Personal Site/Drum Kits/styles.css
+        new file:   Bootstrap/html/HTML - Personal Site/HTML/contact-me.html
+        new file:   Bootstrap/html/HTML - Personal Site/HTML/hobbies.html
+        new file:   Bootstrap/html/HTML - Personal Site/HTML/index.html
+        new file:   Bootstrap/html/HTML - Personal Site/HTML/my-picture.png
+        new file:   Bootstrap/html/HTML - Personal Site/HTML/styles.css
+        new file:   Bootstrap/html/HTML - Personal Site/INPUTS/inputs.html
+        new file:   Bootstrap/html/HTML - Personal Site/Simon+Game+Challenge+Step+1+Answer.zip
+        new file:   Bootstrap/html/HTML - Personal Site/jQuery/game.js
+        new file:   Bootstrap/html/HTML - Personal Site/jQuery/index.html
+        new file:   Bootstrap/html/HTML - Personal Site/jQuery/styles.css
+        new file:   Bootstrap/html/index.html
+        new file:   Bootstrap/images/bizinsider.png
+        new file:   Bootstrap/images/mashable.png
+        new file:   Bootstrap/images/techcrunch.png
+        new file:   Bootstrap/images/tnw.jpg
+        new file:   CSS/images/cloud_image.jpg
+        new file:   CSS/images/mountain_image.jpg
+        new file:   CSS/tangerine.html.html
+        new file:   DOM/index.html
+        new file:   DOM/index.js
+        new file:   DOM/styles.css
+        new file:   HTML/contact-me.html
+        new file:   HTML/index.html
+        new file:   HTML/mayur.jpg
+        new file:   Web Development/CSS - My Site/css/styles.css
+        new file:   Web Development/CSS - My Site/favicon.ico
+        new file:   Web Development/CSS - My Site/index.html
+        new file:   Web Development/HTML/contact-me.html
+        new file:   Web Development/HTML/hobbies.html
+        new file:   Web Development/HTML/index.html
+        new file:   Web Development/HTML/my-picture.png
+        new file:   Web Development/HTML/styles.css
+        new file:   Web Development/INPUTS/inputs.html
+        new file:   Web Development/jQuery/Simon+Game+Challenge+Step+1+Answer.zip
+        new file:   Web Development/jQuery/game.js
+        new file:   Web Development/jQuery/index.html
+        new file:   Web Development/jQuery/styles.css
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git commit -m "first time git usage" *
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap.min.css.
+The file will have its original line endings in your working directory
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Mayur@DESKTOP-TGHS8PN.(none)')
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git config --global user.name "Mayur"
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git config --global user.email "bhanusemayur108@gmail.com"
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git commit -m "first time git usage" *
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Bootstrap/bootstrap/bootstrap.min.css.
+The file will have its original line endings in your working directory
+[master (root-commit) b82e385] first time git usage
+ 84 files changed, 12968 insertions(+)
+ create mode 100644 Bootstrap/bootstrap/bootstrap-grid.css
+ create mode 100644 Bootstrap/bootstrap/bootstrap-grid.css.map
+ create mode 100644 Bootstrap/bootstrap/bootstrap-grid.min.css
+ create mode 100644 Bootstrap/bootstrap/bootstrap-grid.min.css.map
+ create mode 100644 Bootstrap/bootstrap/bootstrap-reboot.css
+ create mode 100644 Bootstrap/bootstrap/bootstrap-reboot.css.map
+ create mode 100644 Bootstrap/bootstrap/bootstrap-reboot.min.css
+ create mode 100644 Bootstrap/bootstrap/bootstrap-reboot.min.css.map
+ create mode 100644 Bootstrap/bootstrap/bootstrap.css
+ create mode 100644 Bootstrap/bootstrap/bootstrap.css.map
+ create mode 100644 Bootstrap/bootstrap/bootstrap.min.css
+ create mode 100644 Bootstrap/bootstrap/bootstrap.min.css.map
+ create mode 100644 Bootstrap/bootstrap/index.html
+ create mode 100644 Bootstrap/bootstrap/style.css.css
+ create mode 100644 Bootstrap/bootstrap/styles.css
+ create mode 100644 Bootstrap/css/index.html
+ create mode 100644 Bootstrap/css/styles.css
+ create mode 100644 Bootstrap/html/HTML - Personal Site/CSS - My Site/css/favicon.ico
+ create mode 100644 Bootstrap/html/HTML - Personal Site/CSS - My Site/css/styles.css
+ create mode 100644 Bootstrap/html/HTML - Personal Site/CSS - My Site/index.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice1.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice2.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice3.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice4.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice5.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/images/dice6.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/index.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/index.js
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Dicee_Challenge/styles.css
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kit Starting Files.zip
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/images/crash.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/images/kick.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/images/snare.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom1.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom2.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom3.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/images/tom4.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/index.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/index.js
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/crash.mp3
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/kick-bass.mp3
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/snare.mp3
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-1.mp3
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-2.mp3
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-3.mp3
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/sounds/tom-4.mp3
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Drum Kits/styles.css
+ create mode 100644 Bootstrap/html/HTML - Personal Site/HTML/contact-me.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/HTML/hobbies.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/HTML/index.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/HTML/my-picture.png
+ create mode 100644 Bootstrap/html/HTML - Personal Site/HTML/styles.css
+ create mode 100644 Bootstrap/html/HTML - Personal Site/INPUTS/inputs.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/Simon+Game+Challenge+Step+1+Answer.zip
+ create mode 100644 Bootstrap/html/HTML - Personal Site/jQuery/game.js
+ create mode 100644 Bootstrap/html/HTML - Personal Site/jQuery/index.html
+ create mode 100644 Bootstrap/html/HTML - Personal Site/jQuery/styles.css
+ create mode 100644 Bootstrap/html/index.html
+ create mode 100644 Bootstrap/images/bizinsider.png
+ create mode 100644 Bootstrap/images/mashable.png
+ create mode 100644 Bootstrap/images/techcrunch.png
+ create mode 100644 Bootstrap/images/tnw.jpg
+ create mode 100644 CSS/images/cloud_image.jpg
+ create mode 100644 CSS/images/mountain_image.jpg
+ create mode 100644 CSS/tangerine.html.html
+ create mode 100644 DOM/index.html
+ create mode 100644 DOM/index.js
+ create mode 100644 DOM/styles.css
+ create mode 100644 HTML/contact-me.html
+ create mode 100644 HTML/index.html
+ create mode 100644 HTML/mayur.jpg
+ create mode 100644 Web Development/CSS - My Site/css/styles.css
+ create mode 100644 Web Development/CSS - My Site/favicon.ico
+ create mode 100644 Web Development/CSS - My Site/index.html
+ create mode 100644 Web Development/HTML/contact-me.html
+ create mode 100644 Web Development/HTML/hobbies.html
+ create mode 100644 Web Development/HTML/index.html
+ create mode 100644 Web Development/HTML/my-picture.png
+ create mode 100644 Web Development/HTML/styles.css
+ create mode 100644 Web Development/INPUTS/inputs.html
+ create mode 100644 Web Development/jQuery/Simon+Game+Challenge+Step+1+Answer.zip
+ create mode 100644 Web Development/jQuery/game.js
+ create mode 100644 Web Development/jQuery/index.html
+ create mode 100644 Web Development/jQuery/styles.css
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HTML/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git history
+git: 'history' is not a git command. See 'git --help'.
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git log
+commit b82e3853a07b079109f5ff3a0526cc90cdefe5f8 (HEAD -> master)
+Author: Mayur <bhanusemayur108@gmail.com>
+Date:   Wed Sep 15 17:56:33 2021 +0530
+
+    first time git usage
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HTML/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HTML/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git add HTML/index.html
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HTML/index.html
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status^C
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git commit HTML/index.html -m "Abhijeet added comments"
+[master f867663] Abhijeet added comments
+ 1 file changed, 4 insertions(+)
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$
+s
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git log
+commit f867663a4e3f346d97d0f90be6ddbd0eadaa056b (HEAD -> master)
+Author: Mayur <bhanusemayur108@gmail.com>
+Date:   Wed Sep 15 18:01:12 2021 +0530
+
+    Abhijeet added comments
+
+commit b82e3853a07b079109f5ff3a0526cc90cdefe5f8
+Author: Mayur <bhanusemayur108@gmail.com>
+Date:   Wed Sep 15 17:56:33 2021 +0530
+
+    first time git usage
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote -v
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote -h
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote set-url --add https://github.com/mayurbhanuse/Web-Development.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote set-url --add mayur https://github.com/mayurbhanuse/Web-Development.git
+error: No such remote 'mayur'
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote add -m Mayur https://github.com/mayurbhanuse/Web-Development.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote add https://github.com/mayurbhanuse/Web-Development.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote add -m https://github.com/mayurbhanuse/Web-Development.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote --add https://github.com/mayurbhanuse/Web-Development.git
+error: unknown option `add'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote add mayurbhanuse https://github.com/mayurbhanuse/Web-Development.git
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git push mayurbhanuse
+fatal: helper error (-1073741510): Unknown
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git push mayurbhanuse *
+fatal: invalid refspec 'Web Development'
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote
+mayurbhanuse
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git remote -v
+mayurbhanuse    https://github.com/mayurbhanuse/Web-Development.git (fetch)
+mayurbhanuse    https://github.com/mayurbhanuse/Web-Development.git (push)
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git push -h
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ git push --repo mayurbhanuse
+Enumerating objects: 103, done.
+Counting objects: 100% (103/103), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (99/99), done.
+Writing objects: 100% (103/103), 1.18 MiB | 1.59 MiB/s, done.
+Total 103 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/mayurbhanuse/Web-Development/pull/new/master
+remote:
+To https://github.com/mayurbhanuse/Web-Development.git
+ * [new branch]      master -> master
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ ls -alrt
+total 16
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:54  CSS/
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:57  HTML/
+drwxr-xr-x 1 Mayur 197121 0 Aug 26 20:05  Bootstrap/
+drwxr-xr-x 1 Mayur 197121 0 Sep  3 20:01  DOM/
+drwxr-xr-x 1 Mayur 197121 0 Sep 10 12:02 'Web Development'/
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 17:37  ../
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 17:50  ./
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 18:19  .git/
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ ls -alrt
+total 16
+drwxr-xr-x 1 Mayur 197121 0 Aug 25 11:54  CSS/
+drwxr-xr-x 1 Mayur 197121 0 Aug 26 20:05  Bootstrap/
+drwxr-xr-x 1 Mayur 197121 0 Sep  3 20:01  DOM/
+drwxr-xr-x 1 Mayur 197121 0 Sep 10 12:02 'Web Development'/
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 17:37  ../
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 17:50  ./
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 18:19  .git/
+drwxr-xr-x 1 Mayur 197121 0 Sep 15 18:32  HTML/
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study (master)
+$ cd HTML
+ls
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study/HTML (master)
+$ ls -alrt
+total 76
+-rw-r--r-- 1 Mayur 197121 60799 Jan 10  2019  mayur.jpg
+-rw-r--r-- 1 Mayur 197121   667 Aug  5 11:06  contact-me.html
+drwxr-xr-x 1 Mayur 197121     0 Sep 15 17:50  ../
+-rw-r--r-- 1 Mayur 197121  1602 Sep 15 18:00  index.html
+-rw-r--r-- 1 Mayur 197121  1602 Sep 15 18:00 'index - Copy.html'
+drwxr-xr-x 1 Mayur 197121     0 Sep 15 18:32  ./
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study/HTML (master)
+$ git add *
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study/HTML (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index - Copy.html
+
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study/HTML (master)
+$ git commit -m "copied index.html file"
+[master 3c0184b] copied index.html file
+ 1 file changed, 67 insertions(+)
+ create mode 100644 HTML/index - Copy.html
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study/HTML (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study/HTML (master)
+$ git push mayurbhanuse
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/mayurbhanuse/Web-Development.git
+   f867663..3c0184b  master -> master
+
+Mayur@DESKTOP-TGHS8PN MINGW64 /e/Study/HTML (master)
+$
