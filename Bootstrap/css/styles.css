@@ -1,0 +1,20 @@
+h1{
+  color: orange;
+  font-size: 100px;
+}
+body{
+  background-color: lightblue;
+}
+/* img{
+  background-color: grey;
+} */
+p{
+  color: orange;
+  font-size: 50px;
+}
+.tangerine{
+  background-color: red;
+}
+.brocolli{
+  background-color: blue;
+}

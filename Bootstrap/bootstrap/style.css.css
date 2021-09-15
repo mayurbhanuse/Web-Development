@@ -1,0 +1,31 @@
+/*************************tag selectors*******************/
+ h1{
+    color: red;
+    font-size: 100px;
+   }
+
+img:hover{
+  background-color: gold;
+}
+
+/*************************CLASS SELECTOR*********************/
+.tangerine{
+   background-color: green;
+ }
+ .circular{
+   border-radius: 100%;
+ }
+.grapes{
+  background-color: red;
+}
+.circular{
+  border-radius:100%;
+}
+/*************************ID selector*********************/
+#heading{
+  color:orange;
+}
+#paragraph{
+  font-size: 27px;
+  color:green;
+}
